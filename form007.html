@@ -9,26 +9,33 @@
 <body>
     <h1>Exemplo de formulário</h1>
 
-    <form action="cadastro.php" method="post" autocomplete="on
-    ">
 
-    <p>
-        <label for="iest">Estado</label>
-        <select name="estado" id="iest">
+    <fieldset> <br>
+        <form action="cadastro.php" method="post" autocomplete="on
+        ">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+        
+                    <option value="selected">---Escolha---</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="MG">Minhas Gerais</option>
+                        <option value="RJ">Rio De Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="ES">Esperíto Santo</option>
+                    </optgroup>
+                    <optgroup label="Região Nordeste">
+                        <option value="AL">Alagoas</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="MA">Maranhão</option>
+                    </optgroup>
+        
+            </select>
+        </p>
+        </form>
+    </fieldset>
 
-           
-                <option value="selected">---Escolha---</option>
-                <optgroup label="Região Sudeste">
-                    <option value="MG">Minhas Gerais</option>
-                    <option value="RJ">Rio De Janeiro</option>
-                    <option value="SP">São Paulo</option>
-                </optgroup>
-         
-
-        </select>
-
-    </p>
-
-    </form>
 </body>
+
 </html>
